@@ -1,0 +1,23 @@
+MOTIF_INDEX	MOTIF_SOURCE	MOTIF_ID	ALT_ID	CONSENSUS	WIDTH	SITES	E-VALUE	E-VALUE_SOURCE	MOST_SIMILAR_MOTIF_SOURCE	MOST_SIMILAR_MOTIF	URL
+1	MEME	STGTGCTGTCTYCCT	MEME-1	STGTGCTGTCTYCCT	15	6	1.1e-012	MEME	../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt	MA0111.1 (Spz1)	http://jaspar.genereg.net/matrix/MA0111.1
+2	MEME	YWGGSCTCCTCCCAG	MEME-2	YWGGSCTCCTCCCAG	15	6	4.5e-010	MEME	../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt	MA0528.2 (ZNF263)	http://jaspar.genereg.net/matrix/MA0528.2
+3	MEME	AGCTTTCRATTTCCC	MEME-3	AGCTTTCRATTTCCC	15	6	7.5e-010	MEME	../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt	MA0051.1 (IRF2)	http://jaspar.genereg.net/matrix/MA0051.1
+4	MEME	GSKTGAGSAGKGCTG	MEME-4	GSKTGAGSAGKGCTG	15	6	3.4e-008	MEME	 	 	 
+5	MEME	AATCTCAYTAAATRM	MEME-5	AATCTCAYTAAATRM	15	6	5.0e-007	MEME	../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt	MA1530.1 (NKX6-3)	http://jaspar.genereg.net/matrix/MA1530.1
+6	MEME	GKYTTGAGTAGRWAG	MEME-6	GKYTTGAGTAGRWAG	15	6	1.2e-006	MEME	 	 	 
+7	MEME	CYCTCMSWGTTRTTT	MEME-7	CYCTCMSWGTTRTTT	15	6	4.2e-006	MEME	 	 	 
+8	MEME	GCAMTKKCTSTCTCT	MEME-8	GCAMTKKCTSTCTCT	15	6	6.1e-006	MEME	../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt	MA1647.1 (PRDM4)	http://jaspar.genereg.net/matrix/MA1647.1
+9	MEME	KCACWTTMTTTYCTG	MEME-9	KCACWTTMTTTYCTG	15	6	1.5e-005	MEME	 	 	 
+10	MEME	MAAAAAAKYACASCW	MEME-10	MAAAAAAKYACASCW	15	6	1.0e-004	MEME	../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt	MA0483.1 (Gfi1b)	http://jaspar.genereg.net/matrix/MA0483.1
+11	STREME	3-AGGGAGACAGCACAG	STREME-3	AGGGAGACAGCACAG	15	6	1.3e-004	STREME	../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt	MA0111.1 (Spz1)	http://jaspar.genereg.net/matrix/MA0111.1
+12	MEME	AGAAGTGGCCTGCTT	MEME-11	AGAAGTGGCCTGCTT	15	4	4.3e-004	MEME	 	 	 
+13	MEME	AACMWSTTMWCTTSC	MEME-12	AACMWSTTMWCTTSC	15	6	7.0e-004	MEME	../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt	MA0124.2 (Nkx3-1)	http://jaspar.genereg.net/matrix/MA0124.2
+14	MEME	AAGTCAGKAAATGRG	MEME-13	AAGTCAGKAAATGRG	15	6	8.7e-004	MEME	../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt	MA0761.2 (ETV1)	http://jaspar.genereg.net/matrix/MA0761.2
+15	MEME	ACTGTGGTCACTATG	MEME-14	ACTGTGGTCACTATG	15	4	1.3e-003	MEME	 	 	 
+16	../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt	MA1604.1	Ebf2	NYCCCAAGGGANN	13	6	4.9e-003	CENTRIMO	 	 	http://jaspar.genereg.net/matrix/MA1604.1
+17	../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt	MA1637.1	EBF3	NYCCCAAGGGANN	13	6	4.9e-003	CENTRIMO	 	 	http://jaspar.genereg.net/matrix/MA1637.1
+18	../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt	MA0775.1	MEIS3	DTGACAGS	8	6	1.5e-002	CENTRIMO	 	 	http://jaspar.genereg.net/matrix/MA0775.1
+
+# MEME-ChIP (Motif Analysis of Large Nucleotide Datasets): Version 5.3.3 released on Sun Feb 7 15:39:52 2021 -0800
+# The format of this file is described at https://meme-suite.org/meme//doc/meme-chip-output-format.html
+# meme-chip -ccut 400 -oc meme_200_2 -meme-nmotifs 14 -db ../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt TC_Ifi_centered_200.fas

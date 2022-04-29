@@ -1,0 +1,22 @@
+db_index	motif_id	motif_alt_id	consensus	E-value	adj_p-value	log_adj_p-value	bin_location	bin_width	total_width	sites_in_bin	total_sites	p_success	p-value	mult_tests
+   1	STGTGCTGTCTYCCT	MEME-1	STGTGCTGTCTYCCT	1.3e-4	   1.7e-7	         -15.57	         0.0	     12.0	        386	           6	          6	  0.03109	9.0e-10	       192
+   2	3-AGGGAGACAGCACAG	STREME-3	AGGGAGACAGCACAG	1.3e-4	   1.7e-7	         -15.57	         0.0	     12.0	        386	           6	          6	  0.03109	9.0e-10	       192
+   3	MA1604.1	Ebf2	NYCCCAAGGGANN	4.9e-3	   6.4e-6	         -11.96	         0.0	     22.0	        388	           6	          6	  0.05670	3.3e-8	       193
+   3	MA1637.1	EBF3	NYCCCAAGGGANN	4.9e-3	   6.4e-6	         -11.96	         0.0	     22.0	        388	           6	          6	  0.05670	3.3e-8	       193
+   3	MA0775.1	MEIS3	DTGACAGS	1.5e-2	   2.0e-5	         -10.83	         0.0	     11.0	        393	           5	          6	  0.02799	1.0e-7	       196
+   3	MA0111.1	Spz1	AGGGTWWCAGC	1.3e-1	   1.7e-4	          -8.66	         0.0	     12.0	        390	           4	          4	  0.03077	9.0e-7	       194
+   2	2-AGACAGCCAGTGCTG	STREME-2	AGACAGCCAGTGCTG	6.9e-1	   9.1e-4	          -7.01	         0.0	     50.0	        386	           6	          6	  0.12953	4.7e-6	       192
+   3	MA0154.4	EBF1	NNTCCCCAGGGGANN	7.8e-1	   1.0e-3	          -6.89	         0.0	     24.0	        386	           5	          6	  0.06218	5.3e-6	       192
+   3	MA0498.2	MEIS1	HTGACAD	9.0e-1	   1.2e-3	          -6.75	         0.0	     10.0	        394	           4	          6	  0.02538	6.0e-6	       196
+   3	MA0774.1	MEIS2	TTGACAGS	1.3e0	   1.7e-3	          -6.36	         0.0	     11.0	        393	           4	          6	  0.02799	8.8e-6	       196
+   3	MA1655.1	ZNF341	NRGAACAGCCNN	1.8e0	   2.4e-3	          -6.05	         0.0	     59.0	        389	           6	          6	  0.15167	1.2e-5	       194
+   3	MA0811.1	TFAP2B	YGCCCBVRGGCA	2.5e0	   3.3e-3	          -5.71	         0.0	     25.0	        389	           4	          4	  0.06427	1.7e-5	       194
+   3	MA0524.2	TFAP2C	YGCCYBVRGGCA	2.5e0	   3.3e-3	          -5.71	         0.0	     25.0	        389	           4	          4	  0.06427	1.7e-5	       194
+   3	MA0782.2	PKNOX1	NNTGAGTGACAGVNN	3.0e0	   3.9e-3	          -5.54	         0.0	     26.0	        386	           4	          4	  0.06736	2.1e-5	       192
+   1	GSKTGAGSAGKGCTG	MEME-4	GSKTGAGSAGKGCTG	3.0e0	   4.0e-3	          -5.53	         0.0	     64.0	        386	           6	          6	  0.16580	2.1e-5	       192
+   3	MA0595.1	SREBF1	VTCACCCCAY	4.5e0	   5.9e-3	          -5.14	         0.0	     29.0	        391	           4	          4	  0.07417	3.0e-5	       195
+   3	MA0092.1	Hand1::Tcf3	BRTCTGGMWT	5.3e0	   7.0e-3	          -4.97	         0.0	     71.0	        391	           6	          6	  0.18159	3.6e-5	       195
+
+# CentriMo (Local Motif Enrichment Analysis): Version 5.3.3 compiled on Mar 24 2021 at 18:52:59
+# The format of this file is described at https://meme-suite.org/meme/doc/centrimo-output-format.html.
+# centrimo -seqlen 400 -verbosity 1 -oc meme_200_2/centrimo_out -bfile meme_200_2/background meme_200_2/TC_Ifi_centered_200.fas meme_200_2/meme_out/meme.xml meme_200_2/streme_out/streme.xml ../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt

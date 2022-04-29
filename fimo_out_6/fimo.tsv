@@ -1,0 +1,11 @@
+motif_id	motif_alt_id	sequence_name	start	stop	strand	score	p-value	q-value	matched_sequence
+GKYTTGAGTAGRWAG	MEME-6	chr1	173766878	173766892	+	27.1405	6.88e-10	1.59e-06	GGCTTGAGTAGGTAG
+GKYTTGAGTAGRWAG	MEME-6	chr1	173912881	173912895	+	27.1405	6.88e-10	1.59e-06	GGCTTGAGTAGGTAG
+GKYTTGAGTAGRWAG	MEME-6	chr1	174031687	174031701	+	26.7273	1.61e-09	2.48e-06	GGTTTGAGTAGGTAG
+GKYTTGAGTAGRWAG	MEME-6	chr1	173741655	173741669	+	25.2562	8.03e-09	9.29e-06	GGCTCGAGTAGGTAG
+GKYTTGAGTAGRWAG	MEME-6	chr1	173879992	173880006	+	22.9256	2.32e-08	1.79e-05	GTTTTGAGTAGAAAG
+GKYTTGAGTAGRWAG	MEME-6	chr1	173942296	173942310	+	22.9256	2.32e-08	1.79e-05	GTTTTGAGTAGAAAG
+
+# FIMO (Find Individual Motif Occurrences): Version 5.3.3 compiled on Mar 24 2021 at 18:52:59
+# The format of this file is described at https://meme-suite.org/meme/doc/fimo-output-format.html.
+# fimo --parse-genomic-coord --verbosity 1 --oc meme_200_2/fimo_out_6 --bgfile meme_200_2/background --motif GKYTTGAGTAGRWAG meme_200_2/meme_out/meme.xml meme_200_2/TC_Ifi_centered_200.fas

@@ -1,0 +1,150 @@
+Invoking:
+  getsize meme_200_2/TC_Ifi_centered_200.fas 1> $metrics
+Finished invoke:
+  name: count_seqs  status: 0  time: 0.009311
+Invoking:
+  fasta-most -min 50 < meme_200_2/TC_Ifi_centered_200.fas 1> $metrics
+Finished invoke:
+  name: most_seqs  status: 0  time: 0.054057
+Invoking:
+  fasta-center -dna -len 400 < meme_200_2/TC_Ifi_centered_200.fas 1> meme_200_2/seqs-centered
+Finished invoke:
+  name: center_seqs  status: 0  time: 0.059239
+Invoking:
+  fasta-get-markov -nostatus -nosummary -dna -m 2 meme_200_2/TC_Ifi_centered_200.fas meme_200_2/background
+Finished invoke:
+  name: bg  status: 0  time: 0.008814
+Invoking:
+  meme meme_200_2/seqs-centered -oc meme_200_2/meme_out -mod zoops -nmotifs 14 -minw 6 -maxw 15 -bfile meme_200_2/background -dna -revcomp -nostatus
+Finished invoke:
+  name: meme  status: 0  time: 5.503048
+Invoking:
+  streme -verbosity 1 -oc meme_200_2/streme_out -dna -p meme_200_2/seqs-centered -minw 6 -maxw 15 -kmer 3
+Finished invoke:
+  name: streme  status: 0  time: 0.828828
+Invoking:
+  centrimo -seqlen 400 -verbosity 1 -oc meme_200_2/centrimo_out -bfile meme_200_2/background meme_200_2/TC_Ifi_centered_200.fas meme_200_2/meme_out/meme.xml meme_200_2/streme_out/streme.xml ../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt
+Finished invoke:
+  name: centrimo  status: 0  time: 1.019097
+Invoking:
+  tomtom -verbosity 1 -oc meme_200_2/meme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc meme_200_2/meme_out/meme.xml ../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt
+Finished invoke:
+  name: meme_tomtom  status: 0  time: 13.934325
+Invoking:
+  tomtom -verbosity 1 -oc meme_200_2/streme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc meme_200_2/streme_out/streme.xml ../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt
+Finished invoke:
+  name: streme_tomtom  status: 0  time: 5.47642
+Invoking:
+  tomtom -verbosity 1 -text -thresh 0.1 meme_200_2/combined.meme meme_200_2/combined.meme 1> meme_200_2/motif_alignment.txt
+Finished invoke:
+  name: align  status: 0  time: 0.527444
+Invoking:
+  spamo -verbosity 1 -oc meme_200_2/spamo_out_1 -bgfile meme_200_2/background -keepprimary -primary STGTGCTGTCTYCCT meme_200_2/TC_Ifi_centered_200.fas meme_200_2/meme_out/meme.xml meme_200_2/meme_out/meme.xml meme_200_2/streme_out/streme.xml
+Finished invoke:
+  name: spamo1  status: 0  time: 0.087432
+Invoking:
+  spamo -verbosity 1 -oc meme_200_2/spamo_out_2 -bgfile meme_200_2/background -keepprimary -primary YWGGSCTCCTCCCAG meme_200_2/TC_Ifi_centered_200.fas meme_200_2/meme_out/meme.xml meme_200_2/meme_out/meme.xml meme_200_2/streme_out/streme.xml
+Finished invoke:
+  name: spamo2  status: 0  time: 0.110983
+Invoking:
+  spamo -verbosity 1 -oc meme_200_2/spamo_out_3 -bgfile meme_200_2/background -keepprimary -primary AGCTTTCRATTTCCC meme_200_2/TC_Ifi_centered_200.fas meme_200_2/meme_out/meme.xml meme_200_2/meme_out/meme.xml meme_200_2/streme_out/streme.xml
+Finished invoke:
+  name: spamo3  status: 0  time: 0.064353
+Invoking:
+  spamo -verbosity 1 -oc meme_200_2/spamo_out_4 -bgfile meme_200_2/background -keepprimary -primary GSKTGAGSAGKGCTG meme_200_2/TC_Ifi_centered_200.fas meme_200_2/meme_out/meme.xml meme_200_2/meme_out/meme.xml meme_200_2/streme_out/streme.xml
+Finished invoke:
+  name: spamo4  status: 0  time: 0.093854
+Invoking:
+  spamo -verbosity 1 -oc meme_200_2/spamo_out_5 -bgfile meme_200_2/background -keepprimary -primary AATCTCAYTAAATRM meme_200_2/TC_Ifi_centered_200.fas meme_200_2/meme_out/meme.xml meme_200_2/meme_out/meme.xml meme_200_2/streme_out/streme.xml
+Finished invoke:
+  name: spamo5  status: 0  time: 0.062304
+Invoking:
+  spamo -verbosity 1 -oc meme_200_2/spamo_out_6 -bgfile meme_200_2/background -keepprimary -primary GKYTTGAGTAGRWAG meme_200_2/TC_Ifi_centered_200.fas meme_200_2/meme_out/meme.xml meme_200_2/meme_out/meme.xml meme_200_2/streme_out/streme.xml
+Finished invoke:
+  name: spamo6  status: 0  time: 0.05884
+Invoking:
+  spamo -verbosity 1 -oc meme_200_2/spamo_out_7 -bgfile meme_200_2/background -keepprimary -primary CYCTCMSWGTTRTTT meme_200_2/TC_Ifi_centered_200.fas meme_200_2/meme_out/meme.xml meme_200_2/meme_out/meme.xml meme_200_2/streme_out/streme.xml
+Finished invoke:
+  name: spamo7  status: 0  time: 0.084734
+Invoking:
+  spamo -verbosity 1 -oc meme_200_2/spamo_out_8 -bgfile meme_200_2/background -keepprimary -primary GCAMTKKCTSTCTCT meme_200_2/TC_Ifi_centered_200.fas meme_200_2/meme_out/meme.xml meme_200_2/meme_out/meme.xml meme_200_2/streme_out/streme.xml
+Finished invoke:
+  name: spamo8  status: 0  time: 0.104253
+Invoking:
+  spamo -verbosity 1 -oc meme_200_2/spamo_out_9 -bgfile meme_200_2/background -keepprimary -primary KCACWTTMTTTYCTG meme_200_2/TC_Ifi_centered_200.fas meme_200_2/meme_out/meme.xml meme_200_2/meme_out/meme.xml meme_200_2/streme_out/streme.xml
+Finished invoke:
+  name: spamo9  status: 0  time: 0.196197
+Invoking:
+  spamo -verbosity 1 -oc meme_200_2/spamo_out_10 -bgfile meme_200_2/background -keepprimary -primary MAAAAAAKYACASCW meme_200_2/TC_Ifi_centered_200.fas meme_200_2/meme_out/meme.xml meme_200_2/meme_out/meme.xml meme_200_2/streme_out/streme.xml
+Finished invoke:
+  name: spamo10  status: 0  time: 0.065222
+Invoking:
+  spamo -verbosity 1 -oc meme_200_2/spamo_out_11 -bgfile meme_200_2/background -keepprimary -primary AGAAGTGGCCTGCTT meme_200_2/TC_Ifi_centered_200.fas meme_200_2/meme_out/meme.xml meme_200_2/meme_out/meme.xml meme_200_2/streme_out/streme.xml
+Finished invoke:
+  name: spamo11  status: 0  time: 0.069604
+Invoking:
+  spamo -verbosity 1 -oc meme_200_2/spamo_out_12 -bgfile meme_200_2/background -keepprimary -primary AACMWSTTMWCTTSC meme_200_2/TC_Ifi_centered_200.fas meme_200_2/meme_out/meme.xml meme_200_2/meme_out/meme.xml meme_200_2/streme_out/streme.xml
+Finished invoke:
+  name: spamo12  status: 0  time: 0.062449
+Invoking:
+  spamo -verbosity 1 -oc meme_200_2/spamo_out_13 -bgfile meme_200_2/background -keepprimary -primary ACTGTGGTCACTATG meme_200_2/TC_Ifi_centered_200.fas meme_200_2/meme_out/meme.xml meme_200_2/meme_out/meme.xml meme_200_2/streme_out/streme.xml
+Finished invoke:
+  name: spamo13  status: 0  time: 0.068452
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc meme_200_2/fimo_out_1 --bgfile meme_200_2/background --motif STGTGCTGTCTYCCT meme_200_2/meme_out/meme.xml meme_200_2/TC_Ifi_centered_200.fas
+Finished invoke:
+  name: fimo1  status: 0  time: 0.047942
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc meme_200_2/fimo_out_2 --bgfile meme_200_2/background --motif YWGGSCTCCTCCCAG meme_200_2/meme_out/meme.xml meme_200_2/TC_Ifi_centered_200.fas
+Finished invoke:
+  name: fimo2  status: 0  time: 0.047252
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc meme_200_2/fimo_out_3 --bgfile meme_200_2/background --motif AGCTTTCRATTTCCC meme_200_2/meme_out/meme.xml meme_200_2/TC_Ifi_centered_200.fas
+Finished invoke:
+  name: fimo3  status: 0  time: 0.045883
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc meme_200_2/fimo_out_4 --bgfile meme_200_2/background --motif GSKTGAGSAGKGCTG meme_200_2/meme_out/meme.xml meme_200_2/TC_Ifi_centered_200.fas
+Finished invoke:
+  name: fimo4  status: 0  time: 0.046139
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc meme_200_2/fimo_out_5 --bgfile meme_200_2/background --motif AATCTCAYTAAATRM meme_200_2/meme_out/meme.xml meme_200_2/TC_Ifi_centered_200.fas
+Finished invoke:
+  name: fimo5  status: 0  time: 0.046029
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc meme_200_2/fimo_out_6 --bgfile meme_200_2/background --motif GKYTTGAGTAGRWAG meme_200_2/meme_out/meme.xml meme_200_2/TC_Ifi_centered_200.fas
+Finished invoke:
+  name: fimo6  status: 0  time: 0.052247
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc meme_200_2/fimo_out_7 --bgfile meme_200_2/background --motif CYCTCMSWGTTRTTT meme_200_2/meme_out/meme.xml meme_200_2/TC_Ifi_centered_200.fas
+Finished invoke:
+  name: fimo7  status: 0  time: 0.048313
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc meme_200_2/fimo_out_8 --bgfile meme_200_2/background --motif GCAMTKKCTSTCTCT meme_200_2/meme_out/meme.xml meme_200_2/TC_Ifi_centered_200.fas
+Finished invoke:
+  name: fimo8  status: 0  time: 0.04245
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc meme_200_2/fimo_out_9 --bgfile meme_200_2/background --motif KCACWTTMTTTYCTG meme_200_2/meme_out/meme.xml meme_200_2/TC_Ifi_centered_200.fas
+Finished invoke:
+  name: fimo9  status: 0  time: 0.044897
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc meme_200_2/fimo_out_10 --bgfile meme_200_2/background --motif MAAAAAAKYACASCW meme_200_2/meme_out/meme.xml meme_200_2/TC_Ifi_centered_200.fas
+Finished invoke:
+  name: fimo10  status: 0  time: 0.047345
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc meme_200_2/fimo_out_11 --bgfile meme_200_2/background --motif AGAAGTGGCCTGCTT meme_200_2/meme_out/meme.xml meme_200_2/TC_Ifi_centered_200.fas
+Finished invoke:
+  name: fimo11  status: 0  time: 0.047293
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc meme_200_2/fimo_out_12 --bgfile meme_200_2/background --motif AACMWSTTMWCTTSC meme_200_2/meme_out/meme.xml meme_200_2/TC_Ifi_centered_200.fas
+Finished invoke:
+  name: fimo12  status: 0  time: 0.046612
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc meme_200_2/fimo_out_13 --bgfile meme_200_2/background --motif ACTGTGGTCACTATG meme_200_2/meme_out/meme.xml meme_200_2/TC_Ifi_centered_200.fas
+Finished invoke:
+  name: fimo13  status: 0  time: 0.048756
+Writing output
+Invoking:
+  meme-chip_html_to_tsv meme_200_2/meme-chip.html meme_200_2/summary.tsv "meme-chip -ccut 400 -oc meme_200_2 -meme-nmotifs 14 -db ../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt TC_Ifi_centered_200.fas" 5.3.3 "Sun Feb 7 15\:39\:52 2021 -0800"
+Finished invoke:
+  name: summary  status: 0  time: 0.100273
+Done

@@ -1,0 +1,5 @@
+prim_db	prim_id	prim_alt	prim_cons	sec_db	sec_id	sec_alt	sec_cons	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+
+# SpaMo (Spaced Motif Analysis Tool): Version 5.3.3 compiled on Mar 24 2021 at 18:53:00
+# The format of this file is described at https://meme-suite.org/meme/doc/spamo-output-format.html.
+# spamo -verbosity 1 -oc meme_200_2/spamo_out_10 -bgfile meme_200_2/background -keepprimary -primary MAAAAAAKYACASCW meme_200_2/TC_Ifi_centered_200.fas meme_200_2/meme_out/meme.xml meme_200_2/meme_out/meme.xml meme_200_2/streme_out/streme.xml

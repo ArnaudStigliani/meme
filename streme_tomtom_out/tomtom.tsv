@@ -1,0 +1,7 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+3-AGGGAGACAGCACAG	MA0111.1	0	0.000712498	0.531523	1	11	AGGGAGACAGCACAG	AGGGTAACAGC	+
+5-GGGAAATCGAAAGCT	MA0051.1	-1	0.000276797	0.206491	0.412981	14	GGGAAATCGAAAGCT	GGAAAGTGAAACCAAAAC	+
+
+# Tomtom (Motif Comparison Tool): Version 5.3.3 compiled on Mar 24 2021 at 18:53:00
+# The format of this file is described at https://meme-suite.org/meme/doc/tomtom-output-format.html.
+# tomtom -verbosity 1 -oc meme_200_2/streme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc meme_200_2/streme_out/streme.xml ../../../shared_data/BS_db/JASPAR2020_CORE_vertebrates_non-redundant_pfms_meme.txt

@@ -1,0 +1,7 @@
+##gff-version 3
+chr1	fimo	nucleotide_motif	173741942	173741956	85.3	+	.	Name=AATCTCAYTAAATRM_chr1+;Alias=MEME-5;ID=AATCTCAYTAAATRM-MEME-5-1-chr1;pvalue=2.94e-09;qvalue=3.39e-06;sequence=AATCTCACTAAATAA;
+chr1	fimo	nucleotide_motif	173767174	173767188	85.3	+	.	Name=AATCTCAYTAAATRM_chr1+;Alias=MEME-5;ID=AATCTCAYTAAATRM-MEME-5-1-chr1;pvalue=2.94e-09;qvalue=3.39e-06;sequence=AATCTCACTAAATAA;
+chr1	fimo	nucleotide_motif	173880043	173880057	76.8	+	.	Name=AATCTCAYTAAATRM_chr1+;Alias=MEME-5;ID=AATCTCAYTAAATRM-MEME-5-1-chr1;pvalue=2.1e-08;qvalue=1.62e-05;sequence=AATCTCATTAAATGC;
+chr1	fimo	nucleotide_motif	173913176	173913190	85.3	+	.	Name=AATCTCAYTAAATRM_chr1+;Alias=MEME-5;ID=AATCTCAYTAAATRM-MEME-5-1-chr1;pvalue=2.94e-09;qvalue=3.39e-06;sequence=AATCTCACTAAATAA;
+chr1	fimo	nucleotide_motif	173942347	173942361	76.8	+	.	Name=AATCTCAYTAAATRM_chr1+;Alias=MEME-5;ID=AATCTCAYTAAATRM-MEME-5-1-chr1;pvalue=2.1e-08;qvalue=1.62e-05;sequence=AATCTCATTAAATGC;
+chr1	fimo	nucleotide_motif	174031984	174031998	85.3	+	.	Name=AATCTCAYTAAATRM_chr1+;Alias=MEME-5;ID=AATCTCAYTAAATRM-MEME-5-1-chr1;pvalue=2.94e-09;qvalue=3.39e-06;sequence=AATCTCACTAAATAA;

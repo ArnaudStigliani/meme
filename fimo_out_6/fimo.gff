@@ -1,0 +1,7 @@
+##gff-version 3
+chr1	fimo	nucleotide_motif	173741655	173741669	80.9	+	.	Name=GKYTTGAGTAGRWAG_chr1+;Alias=MEME-6;ID=GKYTTGAGTAGRWAG-MEME-6-1-chr1;pvalue=8.03e-09;qvalue=9.29e-06;sequence=GGCTCGAGTAGGTAG;
+chr1	fimo	nucleotide_motif	173766878	173766892	91.6	+	.	Name=GKYTTGAGTAGRWAG_chr1+;Alias=MEME-6;ID=GKYTTGAGTAGRWAG-MEME-6-1-chr1;pvalue=6.88e-10;qvalue=1.59e-06;sequence=GGCTTGAGTAGGTAG;
+chr1	fimo	nucleotide_motif	173879992	173880006	76.3	+	.	Name=GKYTTGAGTAGRWAG_chr1+;Alias=MEME-6;ID=GKYTTGAGTAGRWAG-MEME-6-1-chr1;pvalue=2.32e-08;qvalue=1.79e-05;sequence=GTTTTGAGTAGAAAG;
+chr1	fimo	nucleotide_motif	173912881	173912895	91.6	+	.	Name=GKYTTGAGTAGRWAG_chr1+;Alias=MEME-6;ID=GKYTTGAGTAGRWAG-MEME-6-1-chr1;pvalue=6.88e-10;qvalue=1.59e-06;sequence=GGCTTGAGTAGGTAG;
+chr1	fimo	nucleotide_motif	173942296	173942310	76.3	+	.	Name=GKYTTGAGTAGRWAG_chr1+;Alias=MEME-6;ID=GKYTTGAGTAGRWAG-MEME-6-1-chr1;pvalue=2.32e-08;qvalue=1.79e-05;sequence=GTTTTGAGTAGAAAG;
+chr1	fimo	nucleotide_motif	174031687	174031701	87.9	+	.	Name=GKYTTGAGTAGRWAG_chr1+;Alias=MEME-6;ID=GKYTTGAGTAGRWAG-MEME-6-1-chr1;pvalue=1.61e-09;qvalue=2.48e-06;sequence=GGTTTGAGTAGGTAG;

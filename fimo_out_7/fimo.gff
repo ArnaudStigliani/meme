@@ -1,0 +1,12 @@
+##gff-version 3
+chr1	fimo	nucleotide_motif	173741736	173741750	89.1	+	.	Name=CYCTCMSWGTTRTTT_chr1+;Alias=MEME-7;ID=CYCTCMSWGTTRTTT-MEME-7-1-chr1;pvalue=1.23e-09;qvalue=1.39e-06;sequence=CTCTCAGAGTTGTTT;
+chr1	fimo	nucleotide_motif	173741770	173741784	44.9	+	.	Name=CYCTCMSWGTTRTTT_chr1+;Alias=MEME-7;ID=CYCTCMSWGTTRTTT-MEME-7-2-chr1;pvalue=3.21e-05;qvalue=0.0182;sequence=CTCTCTGTGCTGTCT;
+chr1	fimo	nucleotide_motif	173741820	173741834	41.6	+	.	Name=CYCTCMSWGTTRTTT_chr1+;Alias=MEME-7;ID=CYCTCMSWGTTRTTT-MEME-7-3-chr1;pvalue=6.85e-05;qvalue=0.031;sequence=CTCCCAGTTTTGTTC;
+chr1	fimo	nucleotide_motif	173766959	173766973	89.1	+	.	Name=CYCTCMSWGTTRTTT_chr1+;Alias=MEME-7;ID=CYCTCMSWGTTRTTT-MEME-7-1-chr1;pvalue=1.23e-09;qvalue=1.39e-06;sequence=CTCTCAGAGTTGTTT;
+chr1	fimo	nucleotide_motif	173880079	173880093	74.5	-	.	Name=CYCTCMSWGTTRTTT_chr1-;Alias=MEME-7;ID=CYCTCMSWGTTRTTT-MEME-7-1-chr1;pvalue=3.51e-08;qvalue=2.65e-05;sequence=CCCTCCCTGTTATTT;
+chr1	fimo	nucleotide_motif	173912962	173912976	89.1	+	.	Name=CYCTCMSWGTTRTTT_chr1+;Alias=MEME-7;ID=CYCTCMSWGTTRTTT-MEME-7-1-chr1;pvalue=1.23e-09;qvalue=1.39e-06;sequence=CTCTCAGAGTTGTTT;
+chr1	fimo	nucleotide_motif	173912956	173912970	45.3	-	.	Name=CYCTCMSWGTTRTTT_chr1-;Alias=MEME-7;ID=CYCTCMSWGTTRTTT-MEME-7-2-chr1;pvalue=2.97e-05;qvalue=0.0182;sequence=CTCTGAGAGTTTTGT;
+chr1	fimo	nucleotide_motif	173942383	173942397	74.5	-	.	Name=CYCTCMSWGTTRTTT_chr1-;Alias=MEME-7;ID=CYCTCMSWGTTRTTT-MEME-7-1-chr1;pvalue=3.51e-08;qvalue=2.65e-05;sequence=CCCTCCCTGTTATTT;
+chr1	fimo	nucleotide_motif	174031768	174031782	89.1	+	.	Name=CYCTCMSWGTTRTTT_chr1+;Alias=MEME-7;ID=CYCTCMSWGTTRTTT-MEME-7-1-chr1;pvalue=1.23e-09;qvalue=1.39e-06;sequence=CTCTCAGAGTTGTTT;
+chr1	fimo	nucleotide_motif	174031859	174031873	41.6	+	.	Name=CYCTCMSWGTTRTTT_chr1+;Alias=MEME-7;ID=CYCTCMSWGTTRTTT-MEME-7-2-chr1;pvalue=6.85e-05;qvalue=0.031;sequence=CTCCCAGTTTTGTTC;
+chr1	fimo	nucleotide_motif	174031807	174031821	 41	+	.	Name=CYCTCMSWGTTRTTT_chr1+;Alias=MEME-7;ID=CYCTCMSWGTTRTTT-MEME-7-3-chr1;pvalue=7.9e-05;qvalue=0.0325;sequence=CTCTCACTGTGCTGT;

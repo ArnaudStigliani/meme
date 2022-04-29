@@ -1,0 +1,7 @@
+##gff-version 3
+chr1	fimo	nucleotide_motif	173741924	173741938	 76	+	.	Name=KCACWTTMTTTYCTG_chr1+;Alias=MEME-9;ID=KCACWTTMTTTYCTG-MEME-9-1-chr1;pvalue=2.51e-08;qvalue=2.13e-05;sequence=TCACATGATTTTCTG;
+chr1	fimo	nucleotide_motif	173767156	173767170	87.8	+	.	Name=KCACWTTMTTTYCTG_chr1+;Alias=MEME-9;ID=KCACWTTMTTTYCTG-MEME-9-1-chr1;pvalue=1.64e-09;qvalue=2.48e-06;sequence=TCACATTCTTTTCTG;
+chr1	fimo	nucleotide_motif	173880241	173880255	75.5	+	.	Name=KCACWTTMTTTYCTG_chr1+;Alias=MEME-9;ID=KCACWTTMTTTYCTG-MEME-9-1-chr1;pvalue=2.82e-08;qvalue=2.13e-05;sequence=GCACTTTATTTCCTG;
+chr1	fimo	nucleotide_motif	173913158	173913172	87.8	+	.	Name=KCACWTTMTTTYCTG_chr1+;Alias=MEME-9;ID=KCACWTTMTTTYCTG-MEME-9-1-chr1;pvalue=1.64e-09;qvalue=2.48e-06;sequence=TCACATTCTTTTCTG;
+chr1	fimo	nucleotide_motif	173942545	173942559	75.5	+	.	Name=KCACWTTMTTTYCTG_chr1+;Alias=MEME-9;ID=KCACWTTMTTTYCTG-MEME-9-1-chr1;pvalue=2.82e-08;qvalue=2.13e-05;sequence=GCACTTTATTTCCTG;
+chr1	fimo	nucleotide_motif	174031966	174031980	87.8	+	.	Name=KCACWTTMTTTYCTG_chr1+;Alias=MEME-9;ID=KCACWTTMTTTYCTG-MEME-9-1-chr1;pvalue=1.64e-09;qvalue=2.48e-06;sequence=TCACATTCTTTTCTG;
